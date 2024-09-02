@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+  .logo {
+    margin-right: 550px;
+    margin-top:12px ;
+    font-size: 2rem;
+    color: #fff;
+  }
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content:right;
+    padding: 15px 0;
+    list-style-type: none;
+}
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.navbar li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.btn{ 
+    color: rgb(231, 231, 241);
+    margin-top: 15px;
+    padding: 20px 20px;
+    border-radius: 25px;
+    background-color: rgb(15, 15, 15);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:hover{
+    background-color: rgb(87, 78, 85);
+}
+
+.background-slider {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(12, 9, 9);
+    font-size: 40px;
+    font-weight: bold;
+    animation: slideBackground 20s infinite;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-slide {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-slide .text {
+    opacity: 0;
+    position: absolute;
+    transition: opacity 1s ease;
+}
+
+.text-slide .text:nth-child(1) {
+    animation: fadeText 15s infinite;
+}
+
+.text-slide .text:nth-child(2) {
+    animation: fadeText 15s infinite 5s;
+}
+
+.text-slide .text:nth-child(3) {
+    animation: fadeText 15s infinite 10s;
+}
+
+@keyframes slideBackground {
+    0% {
+        background-image: url('https://files.oaiusercontent.com/file-cfyQAuvtJIB9m9NsR5KYVhz0?se=2024-09-01T10%3A27%3A11Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df1238427-9638-40fb-99b5-f77d72d3645d.webp&sig=%2BHNJQHbaimBQIsMzRUpLw4JXC%2BOAU4lWpwraTDkXeu0%3D');
+    }
+    33% {
+        background-image: url('https://img.freepik.com/premium-photo/group-men-playing-volleyball-with-one-wearing-orange-shirt-that-says-team_1239757-8852.jpg?ga=GA1.1.1622317919.1725015892&semt=ais_hybrid');
+    }
+    66% {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-zRRnu02MoPNJBfWCc3W9eiNYeLK5FXwIzmpD_g8uxrmbyoJGiLx8Tz54GI4R');
+    }
+    100% {
+        background-image: url('https://img.freepik.com/free-photo/portrait-person-playing-cricket-sport_23-2151702104.jpg?ga=GA1.1.1622317919.1725015892&semt=ais_hybrid');
+    }
+    
+    
+}
+
+@keyframes fadeText {
+    0%, 100% {
+        opacity: 0;
+    }
+    10%, 30% {
+        opacity: 1;
+    }
+}

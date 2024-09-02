@@ -1,0 +1,83 @@
+*body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.shutterstock.com/image-photo/image-family-mother-son-playing-260nw-74934511.jpg);
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding: 15px 0;
+    list-style-type: none;
+  }
+  
+  .navbar li {
+    display: inline;
+  }
+  
+  .navbar li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+  }
+  
+  .navbar li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+  }
+  
+  .btn {
+    color: rgb(231, 231, 241);
+    border-radius: 15px;
+    background-color: rgb(116, 96, 96);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .venue-image {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  main {
+    display: flex; 
+    justify-content: center; 
+    margin: 0 150px;
+  }
+  
+  .venue-details {
+    flex-grow: 1;
+  }
+  .venue-map h2{
+    margin: 0;
+}
+ .venue-map iframe {
+    width: 400px;
+    height: 300px;
+ }
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
