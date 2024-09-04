@@ -1,22 +1,57 @@
-Sports Event Webpage
-Overview
-This is a simple, responsive webpage for an upcoming sports event. The page includes a navigation bar, a background image slider, and event information. The images slide automatically, providing a dynamic background for the page.
+**Sports Event Webpage**
 
-Files
-index.html: This file contains the HTML structure of the webpage.
-style.css: This file contains the CSS styles that define the design and layout of the webpage.
-How It Works
-HTML Structure
-The HTML page includes a navigation bar at the top with links to different sections of the event site: Home, Schedule, Speaker, Venue, and Contact.
-There is a header section that displays information about an upcoming sports event, including the date and a call-to-action button for more information.
-The webpage utilizes a background image slider that automatically cycles through multiple images.
-CSS Styles
-Global Styles: All elements are styled with zero margins and padding, and the font-family is set to Georgia, serif.
-Navigation Bar: The navigation bar is styled to stick to the top, with white text on a black background. The navigation links change their background color on hover.
-Button: The button is styled with padding, rounded corners, and a hover effect that changes its background color.
-Background Slider: A key feature of the webpage is the background slider. The images change automatically at set intervals, with a smooth transition effect.
-Text Section: The event text information is centrally positioned on the page, with headings styled for better visual presentation.
-Key Features
-Responsive Navigation Bar: A simple horizontal navigation bar with links.
-Background Image Slider: The background images change automatically every 15 seconds. You can adjust the timing or the images in the CSS file.
-Event Information: Includes an event title, date, and a button to view more information.
+**Overview**
+
+This project is a simple, responsive webpage for an upcoming sports event. The webpage features a navigation bar, a dynamic background image slider, and sections providing information about the event. The background images slide automatically, adding visual appeal to the webpage.
+
+**Files**
+
+- index.html: Contains the HTML structure of the webpage.
+
+- style.css: Contains the CSS styles that define the design and layout of the webpage.
+
+**How It Works**
+
+**HTML Structure**
+
+- Navigation Bar: The webpage includes a navigation bar at the top with links to various sections: Home, Schedule, Speaker, Venue, and Contact.
+
+- Header Section: Displays details about the upcoming sports event, including the event title, date, and a call-to-action button.
+
+- Background Image Slider: The webpage features a background image slider that cycles through images automatically, creating a dynamic and visually appealing background.
+
+**CSS Styles** 
+
+- Global Styles: Basic styles are applied globally, with all elements having zero margins and padding, and the font-family set to Georgia, serif.
+
+- Navigation Bar: A sticky navigation bar with white text on a black background. Hovering over the links changes the background color.
+
+- Button: The call-to-action button is styled with padding, rounded corners, and a hover effect that changes its background color.
+
+- Background Slider: The background images slide automatically every 15 seconds. Smooth transitions are used to enhance the visual experience.
+
+- Text Section: The event details are centered on the page, with headings styled for readability and impact.
+
+**Key Features**
+
+- Responsive Navigation Bar: A simple and responsive horizontal navigation bar with links to different sections of the webpage.
+
+- Background Image Slider: The background images automatically change every 15 seconds. You can adjust the interval timing or replace the images by editing the style.css file.
+
+- Event Information: The page features event details, including the event title, date, and a button to view more information.
+
+**How to Use**
+
+- Open index.html in your preferred browser to view the webpage.
+
+- Modify the HTML structure in index.html as needed to customize event details.
+
+- Customize the look and feel of the webpage by editing style.css. You can change the timing for the background image slider or replace the images with your own.
+
+- Ensure that the webpage is responsive by testing it on different screen sizes and devices.
+
+**Technologies Used**
+
+- HTML5: For the structure of the webpage.
+
+- CSS3: For styling and layout, including animations and responsiveness.
